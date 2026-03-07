@@ -19,7 +19,7 @@ title: 6.4 커밋 메시지 컨벤션
 [docs] 깃허브 내용 정리
 - README 구조 정리
 - Commit convention 문서 추가
-- S14P21A601-12 #done
+- JIRA-12 #done
 ```
 
 <br><br>
@@ -83,25 +83,25 @@ docs: 문서나 주석만 바꿨을 때
 [feat] RFID reader UID MQTT publish 기능 추가
 - RC522 reader 데이터 수신
 - MQTT broker로 UID 전송
-- S14P21A601-32 #done
+- JIRA-32 #done
 ```
 ```
 [fix] Nav2 목표 위치 계산 오류 수정
 - quaternion → yaw 변환 오류 수정
 - 목표 좌표 계산 로직 수정
-- S14P21A601-40 #done
+- JIRA-40 #done
 ```
 ```
 [test] RFID multi reader 인식 테스트 코드 작성
 - RC522 reader 3개 동시 테스트
 - UID 중복 인식 여부 확인
-- S14P21A601-55
+- JIRA-55
 ```
 ```
 [docs] 깃허브 내용 정리
 - README 구조 정리
 - Commit convention 문서 추가
-- S14P21A601-12 #done
+- JIRA-12 #done
 ```
 
 <br>
@@ -138,26 +138,26 @@ docs: 문서나 주석만 바꿨을 때
 ## 3. Jira Smart Commit 명령어
 `#done`: Jira 태스크를 **Done 상태로 변경**
 ```
-- S14P21A601-32 #done
+- JIRA-32 #done
 ```
 
 <br>
 
 `#resolve`: Jira 태스크를 **Resolved 상태로 변경**
 ```
-- S14P21A601-32 #resolve
+- JIRA-32 #resolve
 ```
 
 <br>
 
 `#comment`: Jira 이슈에 댓글 추가
 ```
-- S14P21A601-32 #comment 테스트 완료
+- JIRA-32 #comment 테스트 완료
 ```
 
 <br>
 
 `#time`: Jira 작업 시간 기록(Worklog에 **2시간 작업 기록**이 추가)
 ```
-- S14P21A601-32 #time 2h
+- JIRA-32 #time 2h
 ```
